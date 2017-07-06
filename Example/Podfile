@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WDPodDemo_Example' do
+  pod 'WDPodDemo', :path => '../'
+
+  target 'WDPodDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
